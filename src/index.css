@@ -28,6 +28,13 @@ code {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   height: 400px;
+  /* scroll when overflow*/
+  overflow-y: scroll;
+}
+
+/* style the scrollbar of the window class*/
+.window::-webkit-scrollbar {
+  width: 5px;
 }
 
 .avatar {
