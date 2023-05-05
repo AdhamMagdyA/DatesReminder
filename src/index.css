@@ -5,10 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(230, 230, 230);
 }
 
-* {
+#root {
   background-color: rgb(230, 230, 230);
+  height: 100vh;
 }
 
 .font {
@@ -26,4 +28,20 @@ code {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   height: 400px;
+}
+
+.avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: scale-down;
+  outline: rgb(0, 0, 0) solid 1px;
+}
+
+.empty {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(200, 200, 200);
 }
